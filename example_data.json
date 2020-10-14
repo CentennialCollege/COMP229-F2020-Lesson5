@@ -29,6 +29,13 @@
     "name" : "MSI Z490 Godlike Motherboard",
     "description" : "Supports 10th Gen Intel Core Pentium Celeron processors for LGA 1200 socket",
     "price" : 1025.55
+},
+{
+    "partID" : "SSD-WD-Black-SN750-1TB",
+    "name" : "WD_Black SN750 1TB NVMe Internal Gaming SSD - Gen3 PCIe, M.2 2280, 3D NAND - WDS100T3X0C",
+    "description" : "At the core of the WD BLACK drive is its revolutionary NAND technology. By doubling the storage density from its previous generation, our 64-layer 3D NAND pushes the limitations of storage and showcases the amazing feat of NAND innovation. ",
+    "price" : 193.37,
+    "__v" : 0
 }
 ]
 }

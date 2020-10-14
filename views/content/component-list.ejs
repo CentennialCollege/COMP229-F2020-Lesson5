@@ -11,6 +11,8 @@
                   <th scope="col">Name</th>
                   <th scope="col">Description</th>
                   <th scope="col">Price</th>
+                  <th></th>
+                  <th></th>
                 </tr>
               </thead>
               <tbody>
@@ -22,6 +24,14 @@
                   <td><%= components[count].name %></td>
                   <td><%= components[count].description %></td>
                   <td><%= components[count].price %></td>
+                  <td>
+                    <a href="/component-list/edit/<%= components[count]._id %>" class="btn btn-primary btn-sm">
+                        <i class="fas fa-edit"></i> Edit</a>
+                  </td>
+                  <td>
+                      <a href="/component-list/delete/<%= components[count]._id %>" class="btn btn-danger btn-sm">
+                          <i class="fas fa-trash-alt"></i> Delete</a>
+                  </td>
                 </tr>
                 
               <% } %>
