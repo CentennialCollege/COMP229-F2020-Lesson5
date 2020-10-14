@@ -36,21 +36,7 @@ router.get('/contact', function(req, res, next) {
   res.render('index', { title: 'Contact' });
 });
 
-/* GET Component-list page. */
-router.get('/component-list', function(req, res, next) {
 
-  
-  Component.Model.find( (err, data) => {
-    if(err)
-    {
-      console.error(err);
-      res.end()
-    }
-
-    res.render('index', { title: 'Component List', components: data });
-  });
-  
-});
 
 
 module.exports = router;
